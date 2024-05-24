@@ -38,8 +38,8 @@ enum Action: Int {
 ```
 |URL|Description|
 |-|-|
-|`​​com.matterport.MatterScan://MatterScan?action=connect&identifier=<url_scheme_of_client>`|Lets the Matterport app know that a new companion has been bound. Both apps should be in the foreground in split view mode..|
-|`​​com.matterport.MatterScan://MatterScan?action=createJob&identifier=<url_scheme_of_client>`|Message for requesting a Job Creation. Both apps should be in the foreground in split view mode and the jobs view should be shown..|
+|`​​com.matterport.MatterScan://MatterScan?action=connect&identifier=<url_scheme_of_client>`|Lets the Matterport app know that a new companion has been bound. Both apps should be in the foreground in split view mode|
+|`​​com.matterport.MatterScan://MatterScan?action=createJob&identifier=<url_scheme_of_client>`|Message for requesting a Job Creation. Both apps should be in the foreground in split view mode and the jobs view should be shown|
 ​​|`com.matterport.MatterScan://MatterScan?action=startScan&identifier=<url_scheme_of_client>`|Message for requesting to start a Scan. Both apps should be in the foreground in split view mode and a job should be opened.|
 |`​​com.matterport.MatterScan://MatterScan?action=completeJobn&identifier=<url_scheme_of_client>`|Message for requesting job completion. (Closes current job and navigates back to the Job gallery screen). Both apps should be in the foreground in split view mode and a job should be opened.|
 
