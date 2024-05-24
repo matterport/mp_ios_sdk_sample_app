@@ -21,7 +21,7 @@ Matterport App and the Robot Companion App communicates via custom url scheme us
 For more information, please check out [Custom URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
 
-# Communication from the Robot companion app to the Matterport APP
+## Communication from the Robot companion app to the Matterport APP
 
 The Robot Companion App communicates requests to the Matterport App via custom url scheme. The current url scheme Matterport App uses is ​​com.matterport.MatterScan://MatterScan
 
@@ -44,7 +44,7 @@ enum Action: Int {
 
 
 
-# Communication From the Matterport app to the Robot companion app
+## Communication From the Matterport app to the Robot companion app
 
 When a request is received from the Robot Companion App, the Matterport App will parse the identifier from the url and sends back status update to the companion app as follows:
 
