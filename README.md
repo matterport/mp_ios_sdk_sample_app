@@ -15,7 +15,8 @@ To compile simply clone this repository and open the project in Xcode. It is a m
 
 # Usage
 
-Binding this sample app with the Materport App using Custom URL Scheme
+Binding this sample app with the Materport App using Custom URL Scheme.
+
 Matterport App and the Robot Companion App communicates via custom url scheme using the split view model available on iPad.
 
 For more information, please check out [Custom URL Scheme](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
