@@ -24,7 +24,7 @@ For more information, please check out [Custom URL Scheme](https://developer.app
 
 ## Communication from the Robot companion app to the Matterport APP
 
-The Robot Companion App communicates requests to the Matterport App via custom url scheme. The current url scheme Matterport App uses is ​​com.matterport.MatterScan://MatterScan
+The Robot Companion App communicates requests to the Matterport App via custom url scheme. The current url scheme Matterport App uses is ​​`com.matterport.MatterScan://MatterScan`
 
 Below are ways Robot Companion App communicates with the Matterport app with the following enum.
 
